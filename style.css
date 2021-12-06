@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+
+/*Reseteo estilos navegador*/
+* {
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+body{
+    height: 3500px;
+    
+}
+/*Reseteo estilos navegador*/
+
+/* Header */
+
+body > header {
+    background-color: #71d7ff;
+    height: 969px;
+}
+
+header nav {
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    justify-content: space-around;
+}
+
+header nav a {
+    color: black;
+    font-size: 36pt;
+    background-color: #a7a7a8;
+    padding: 1%;
+    width: 19%;
+    margin: 1px;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+header nav a:hover{
+    background-color: #262626;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:27pt;
+}
+
+
+.SobreMi {
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.SobreMi h1 {
+    font-size: 50pt;
+}
+
+.SobreMi p {
+    width: 50%;
+    margin: auto;
+    font-size: 14pt;
+}
+
+img[alt="Avatar"] {
+    border-radius: 50%;
+    width: 23%;
+    filter: grayscale(100%);
+}
+
+img[alt="Avatar"]:hover{
+    filter: none;
+} 
+
+
+.personal {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 2% 3%;
+}
+.personal img {
+    width: 111px;
+}
+
+.personal img:hover{
+    width: 140px;
+}
+
+.personal h2 {
+    align-self: center;
+}
+
+.personal div {
+    background-color: #a7a7a8;
+    width: 40%;
+    padding: 0.5%;
+    border-radius: 0.5em;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Header */
+
+/* nav del body */
+aside {
+    background-color: #262626;
+    color: white;
+    width: 30%;
+    font-size: 20pt;
+    padding-bottom: 1%;
+    position: sticky;
+    top: 0;
+    height: fit-content;
+}
+
+aside nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    margin: auto;
+}
+
+aside nav a {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    border-radius: 1%;
+}
+
+aside nav a:hover{
+    color: rgb(0, 119, 255);
+}
+
+#contacto {
+    border-top: 2px solid black;
+    padding-top: 2%;
+    margin-left: 2%;
+    color: white;
+}
+
+summary:hover{
+    color: rgb(0, 119, 255);
+}
+
+summary{
+    font-size: 35pt;
+    text-align: center;
+}
+
+details li ul{
+    list-style-type: none;
+    margin-left: 4%;
+}
+
+/* nav del body */
+
+/* Body */
+    main{
+        height: 2400px;
+        display: flex;
+        flex-direction:row;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+    }
+
+    .princp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    article{
+        background-color: #a7a7a8;
+        width: 70%;
+        height: 10%;
+        padding: 1%;
+    }
+    
+    article h2{
+        font-size: 30pt;
+    }
+
+    article > div{
+        border-left: 2px solid blue;
+        height: 100%;
+    }
+    
+    article li{
+        margin-left: 40%;
+        font-size: x-large;
+    }
+
+
+/* Body */
